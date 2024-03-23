@@ -3,14 +3,15 @@
 int main() {
 	int choice;
 	do {
-		printf("\n===== Gestionnaire de tâches =====\n");
-		printf("1. Ajouter une tâche\n");
-		printf("2. Modifier une tâche\n");
-		printf("3. Supprimer une tâche\n");
-		printf("4. Filtrer les tâches\n");
-		printf("5. Afficher toutes les tâches\n");
-		printf("6. Marquer une tâche comme terminée\n");
-		printf("7. Quitter\n");
+		printf("\n======= Gestionnaire de tâches =======\n");
+		printf("|1. Ajouter une tâche                 |\n");
+		printf("|2. Modifier une tâche                |\n");
+		printf("|3. Supprimer une tâche               |\n");
+		printf("|4. Filtrer les tâches                |\n");
+		printf("|5. Afficher toutes les tâches        |\n");
+		printf("|6. Marquer une tâche comme terminée  |\n");
+		printf("|7. Quitter                           |\n");
+		printf("======================================\n");
 
 		printf("\nEntrez votre choix : ");
 		scanf("%d", &choice);
