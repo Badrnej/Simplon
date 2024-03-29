@@ -1,0 +1,259 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    background-color: black;
+    color: white;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.contenare{
+    padding: 15px 25px 25px;
+    display: flex;
+
+}
+.section_menu{
+    overflow: auto;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 245px;
+    height: 100vh;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom:25px ;
+    border-right:1px solid #141414;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.section_menu #m1 a{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+.section_menu #m1{
+    overflow: auto;
+
+}
+.section_menu #m1 #d{
+    margin-top: 20px; 
+}
+#d div:hover{
+    background-color: rgb(46, 46, 46);
+}
+#d2 div:hover{
+    background-color: rgb(46, 46, 46);
+}
+.section_menu #m1 #d div{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-radius: 10px;
+}
+.section_menu #m1 #d div span{
+    font-size: 16px;
+    font-weight: 400;
+}
+.section_menu #m1 #d div img{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 2px;
+    margin-left: -6px;
+    border: 1px solid white;
+}
+.icone1{
+    font-size: 18px;
+}
+.section_menu #d2 div{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-radius: 10px;
+}
+
+
+/* main */
+.section_main{
+    padding-top: 30px;
+    height: 100%;
+    width: 100%;
+    margin-left: 245px;
+}
+.content_main{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#header{
+    display: flex;
+}
+#header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin-left: 80px;
+    margin-right: 50px;
+    margin-top: -15px;
+}
+#d1{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+#s1{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+#s1 span{
+    margin-right: 20px;
+    
+}
+#s1 a{
+    margin-right:12px;
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: #545454;
+    border-radius: 9px;
+   
+}
+#s1 a:hover{
+    background-color: #3a3a3a;
+}
+#s2{
+    display: flex;
+    gap: 25px;
+}
+#s2 span{
+    font-size: 14px;
+
+}
+
+#colon1{
+    display: flex; 
+    flex-direction: column;
+     align-items: center; 
+     width: fit-content; 
+     margin: 50px;
+}
+#colon1 span{
+    font-size: 15px;
+
+}
+#plus{
+   width: fit-content;
+   padding: 3px;
+   border: 3px solid #282727;
+   background-color: black;
+   border-radius: 50px;
+   margin-bottom: 8px;
+}
+#plus div{
+   width: 75px;
+   height: 75px;
+   background-color: #1A1717;
+   border-radius: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#plus div span{
+    font-size: 60px;
+    font-weight: 100;
+    color: #707070;
+}
+#colon2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-top: 1px solid #141414;
+}
+.actev::after{
+    content:"";
+    background-color: white;
+    width: 80px;
+    height: 2px;
+    position: absolute;
+    top: -16px;
+}
+
+#colon2 div{
+    width: fit-content;
+    margin-left: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    position: relative;  
+}
+#colon2 div span{
+    font-size: 14px;
+}
+
+#colon2 div span{
+    margin-left: 8px;
+    color: #A8A8A8;
+    font-weight: 600;
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+
+.c1{
+    width: 32%;
+    height: 250px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.contener_image{
+    background-color: aqua;
+    width: 32%;
+}
+.contener_image img{
+    width:100%;
+    height:100%;
+    object-position: center;
+}
+
+.section_footer{
+
+    margin-top:50px;
+    margin-left:250px
+
+}
+.section_footer div{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.section_footer div a{
+    font-size: 16px;
+    color: #A8A8A8;
+    margin-left: 10px;
+}
+
