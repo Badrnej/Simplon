@@ -1,52 +1,79 @@
-AI-magination Project 
+I-magination Project README
 
-Contexte du projet
+
+
+## Contexte du projet
+
+
 
 AI-magination est une plateforme en ligne révolutionnaire mettant en avant les chefs-d'œuvre générés par les IA les plus innovantes. Nous recherchons un(e) développeur(se) Web Front-end pour concevoir l'interface utilisateur et l'expérience globale de cette galerie d'art virtuelle unique.
 
 
 
-Objectifs
+## Objectifs
 
-Design: Concevoir avec Figma une interface utilisateur dynamique et visuellement attrayante, mettant l'accent sur les œuvres d'art originales générées par l'IA.
 
-Structure: Structurer le site Web en HTML en mettant en œuvre une architecture claire et adaptable.
 
-Style: Utiliser les compétences en CSS (Flexbox et Grid) pour donner vie à la conception Figma et mettre en valeur les images générées par l'IA.
+- **Design:** Concevoir avec Figma une interface utilisateur dynamique et visuellement attrayante, mettant l'accent sur les œuvres d'art originales générées par l'IA.
 
-Technologies requises
+- **Structure:** Structurer le site Web en HTML en mettant en œuvre une architecture claire et adaptable.
 
-Figma
+- **Style:** Utiliser les compétences en CSS (Flexbox et Grid) pour donner vie à la conception Figma et mettre en valeur les images générées par l'IA.
 
-HTML
 
-CSS (Flexbox et Grid)
 
-User Stories
+## Technologies requises
 
-En tant que visiteur, je veux parcourir facilement une collection d'art unique et découvrir le potentiel créatif des modèles d'IA.
 
-En tant qu'amateur d'art, je veux pouvoir identifier facilement le modèle d'IA qui a produit une œuvre spécifique.
 
-Bonus
+- Figma
 
-Concevoir des interactions utilisateur simples (telles que "J'aime") en utilisant JavaScript.
+- HTML
 
-Livrables
+- CSS (Flexbox et Grid)
 
-Un lien vers la maquette Figma.
 
-Un lien vers le dépôt GitHub.
 
-Critères de performance
+## User Stories
 
-Qualité du code: Respect des bonnes pratiques de développement, code propre et commenté.
 
-Fonctionnalité et performance: La plateforme doit être fonctionnelle, fluide et exempte d'erreurs.
 
-Design intuitif et user-friendly: L'interface utilisateur doit être claire, facile à utiliser et naviguer.
+- En tant que visiteur, je veux parcourir facilement une collection d'art unique et découvrir le potentiel créatif des modèles d'IA.
 
-Respect des deadlines et des sprints définis.
+- En tant qu'amateur d'art, je veux pouvoir identifier facilement le modèle d'IA qui a produit une œuvre spécifique.
 
-Originalité et créativité dans la conception et l'implémentation des fonctionnalités.
+
+
+## Bonus
+
+
+
+- Concevoir des interactions utilisateur simples (telles que "J'aime") en utilisant JavaScript.
+
+
+
+## Livrables
+
+
+
+- Un lien vers la maquette Figma: [Figma](https://www.figma.com/file/clsbekoSczHtppJouKJWz6/AIgrame?type=design&node-id=0-1&mode=design&t=5TtLcLQYoeeHEDdv-0)
+
+- Un lien vers le dépôt GitHub: [GitHub](https://github.com/Badrnej/Simplon/tree/master/AIgram)
+
+
+
+## Critères de performance
+
+
+
+- **Qualité du code:** Respect des bonnes pratiques de développement, code propre et commenté.
+
+- **Fonctionnalité et performance:** La plateforme doit être fonctionnelle, fluide et exempte d'erreurs.
+
+- **Design intuitif et user-friendly:** L'interface utilisateur doit être claire, facile à utiliser et naviguer.
+
+- **Respect des deadlines et des sprints définis.**
+
+- **Originalité et créativité dans la conception et l'implémentation des fonctionnalités.**
+
 
